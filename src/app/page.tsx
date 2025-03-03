@@ -48,8 +48,8 @@ export default function Home() {
       style={{ backgroundImage: "url('/blob.png')", backgroundSize: "cover" }}
     >
       {/* Rive Animation */}
-      <div className="w-80 h-80 sm:w-96 sm:h-96 mix-blend-lighten blur-[0.5px]">
-        <RiveComponent className="w-full h-full" />
+      <div className="w-80 h-80 sm:w-96 sm:h-96 mix-blend-lighten contrast-200">
+        <RiveComponent className="w-full h-full blur-[1px]" />
       </div>
 
       {/* Switch Control */}
